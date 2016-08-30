@@ -1,13 +1,16 @@
 package testngAnnot;
 
+import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import util.ReadExcel;
 
-public class PageTitle extends TestNgAnnot{
+public class PageTitle {
 	
+	
+	Logger log=Logger.getLogger(PageTitle.class);
 	
 	boolean bRunMode;
 	@BeforeMethod
@@ -22,8 +25,9 @@ public class PageTitle extends TestNgAnnot{
 		
 		
 		if(bRunMode==true){
+			TestNgAnnot.driver.get("https://www.google.co.in");
 			String title=TestNgAnnot.driver.getTitle();
-			System.out.println(title);
+			log.debug(title);
 			}else if(bRunMode==false){
 				
 				throw new SkipException("Skipped testcase as Runmode is No");

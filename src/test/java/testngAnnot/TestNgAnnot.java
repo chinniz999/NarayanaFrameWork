@@ -22,7 +22,7 @@ public class TestNgAnnot {
 			driver = new FirefoxDriver();
 
 		}
-		driver.get("https://www.google.co.in");
+		
 	}
 
 }

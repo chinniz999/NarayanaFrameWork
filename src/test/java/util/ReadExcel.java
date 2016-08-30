@@ -2,7 +2,7 @@ package util;
 
 public class ReadExcel {
 	
-	Xlfile_Reader xlreader =new Xlfile_Reader("E:\\A.NEW-DATA\\SIRI\\SIRIINFO--PAYROLL\\WS\\FrameWorkFinal\\src\\test\\resources\\Test.xlsx");
+	Xlfile_Reader xlreader =new Xlfile_Reader("E:\\WorkSpace-Final\\src\\test\\resources\\Test.xlsx");
 	
 	
 	public boolean checkRunMode(String testName){
