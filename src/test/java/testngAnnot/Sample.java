@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Iterator;
 
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.DataProvider;
@@ -16,9 +17,9 @@ public class Sample {
 	public void data() throws FileNotFoundException, IOException, ParseException {
 
 		JSONParser jsonParser = new JSONParser();
-		Object obj = jsonParser.parse(new FileReader("C:\\Users\\Narayana\\Desktop\\Data.json"));
-		JSONArray jsonArray = (JSONArray) obj;
-		
+		Object obj = jsonParser.parse(new FileReader("E:\\A.NEW-DATA\\SIRI\\SIRIINFO--PAYROLL\\WS\\FrameWorkFinal\\src\\test\\resources\\Data.json"));
+		JSONObject jsonObject=(JSONObject) obj;
+		System.out.println(jsonObject.get("firstname1"));
 			
 		
 	}

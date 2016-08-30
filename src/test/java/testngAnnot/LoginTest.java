@@ -66,12 +66,13 @@ public class LoginTest extends TestNgAnnot{
 	
 	
 	@DataProvider(name="jsondata")
-	public Object[] data() throws FileNotFoundException, IOException, ParseException {
+	public void data() throws FileNotFoundException, IOException, ParseException {
 
 		JSONParser jsonParser = new JSONParser();
 		Object obj = jsonParser.parse(new FileReader("E:\\A.NEW-DATA\\SIRI\\SIRIINFO--PAYROLL\\WS\\FrameWorkFinal\\src\\test\\resources\\Data.json"));
 		JSONArray jsonArray = (JSONArray) obj;
-		Object[] arr=jsonArray.toArray();
-		return arr;
+		Object[][] arr = null;
+		arr[0][1]=jsonArray.get(0);
+		System.out.println(arr[0][1]);
 	}
 }
