@@ -9,7 +9,7 @@ import util.ReadExcel;
 
 public class GetUrl {
 
-	Logger log = Logger.getLogger(GetUrl.class);
+	public static Logger log = Logger.getLogger(GetUrl.class);
 
 	boolean bRunMode;
 
@@ -17,17 +17,19 @@ public class GetUrl {
 	public void checkRunMode() {
 		ReadExcel excel = new ReadExcel();
 		bRunMode = excel.checkRunMode("GetUrl");
+		
 
 	}
 
 	@Test
 	public void getUrl() {
-		TestNgAnnot.driver.get("https://www.google.co.in");
+		
 		if (bRunMode == true) {
+			TestNgAnnot.driver.get("https://www.google.co.in");
 			String url = TestNgAnnot.driver.getCurrentUrl();
 			log.debug("Logger" + url);
 		} else if (bRunMode == false) {
-
+			log.warn("TestCase Skipped As RunMode Set to NO");
 			throw new SkipException("Skipped testcase as Runmode is No");
 		}
 

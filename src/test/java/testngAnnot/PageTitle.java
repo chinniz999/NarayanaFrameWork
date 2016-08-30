@@ -10,7 +10,7 @@ import util.ReadExcel;
 public class PageTitle {
 	
 	
-	Logger log=Logger.getLogger(PageTitle.class);
+	public static Logger log = Logger.getLogger(PageTitle.class);
 	
 	boolean bRunMode;
 	@BeforeMethod
@@ -29,7 +29,7 @@ public class PageTitle {
 			String title=TestNgAnnot.driver.getTitle();
 			log.debug(title);
 			}else if(bRunMode==false){
-				
+				log.warn("TestCase Skipped As RunMode Set to NO");
 				throw new SkipException("Skipped testcase as Runmode is No");
 			}
 				
