@@ -1,3 +1,4 @@
+[
 {
 "firstname1":"narayana11",
 "LastName1":"Narayana12",
@@ -5,6 +6,16 @@
 "pswd11":"******",
 "pswd12":"******"
 
+},
+
+{
+"firstname2":"narayana11",
+"LastName2":"Narayana12",
+"email2":"email1",
+"pswd2":"***----***",
+"pswd22":"***---***"
+
 }
 
+]
 
