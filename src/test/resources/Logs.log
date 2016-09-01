@@ -2,3 +2,6 @@
 2016-09-01 15:09:43,348 [TestNG] WARN  devpinoyLogger - false
 2016-09-01 15:09:43,350 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO
 2016-09-01 15:09:43,397 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO
+2016-09-01 16:48:29,108 [TestNG] WARN  devpinoyLogger - false
+2016-09-01 16:48:29,111 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO
+2016-09-01 16:48:29,151 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO

@@ -1,5 +1,6 @@
 package testngAnnot;
 
+import org.openqa.selenium.By;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,6 +26,7 @@ public class GetUrl {
 		if (bRunMode == true) {
 			TestNgAnnot.driver.get("https://www.google.co.in");
 			String url = TestNgAnnot.driver.getCurrentUrl();
+			TestNgAnnot.driver.findElement(By.xpath("")).sendKeys("sdf");
 			TestNgAnnot.log.debug("Logger" + url);
 		} else if (bRunMode == false) {
 			TestNgAnnot.log.warn(bRunMode);

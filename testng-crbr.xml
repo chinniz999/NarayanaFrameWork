@@ -3,6 +3,12 @@
 <suite name="Suite" parallel="tests" thread-count="3" preserve-order="true">
 
 
+<listeners>
+      
+      <listener class-name="util.RetryListener"/>
+      
+  </listeners>
+
 	<test name="Chrome Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
