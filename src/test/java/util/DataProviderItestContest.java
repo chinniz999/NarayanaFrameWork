@@ -19,7 +19,7 @@ public class DataProviderItestContest {
 				};
 		break;	
 		}
-			else if(group.equalsIgnoreCase("registerregister"))
+			else if(group.equalsIgnoreCase("register"))
 			{
 				groupArray = new Object[][] { 
 					{ "narayana@gmail.com", "******" ,"@@@@1@@@"}, 

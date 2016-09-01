@@ -1,12 +1,4 @@
-2016-08-30 12:06:24 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 12:06:24 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 12:06:26 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 12:06:26 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 13:46:34 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 13:46:34 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 13:46:37 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-30 13:46:37 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
-2016-08-31 17:54:46 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-31 17:54:46 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
-2016-08-31 17:54:49 WARN  GetUrl:32 - TestCase Skipped As RunMode Set to NO
-2016-08-31 17:54:49 WARN  PageTitle:32 - TestCase Skipped As RunMode Set to NO
+
+2016-09-01 15:09:43,348 [TestNG] WARN  devpinoyLogger - false
+2016-09-01 15:09:43,350 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO
+2016-09-01 15:09:43,397 [TestNG] WARN  devpinoyLogger - TestCase Skipped As RunMode Set to NO

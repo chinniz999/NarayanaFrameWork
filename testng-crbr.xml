@@ -3,16 +3,7 @@
 <suite name="Suite" parallel="tests" thread-count="3" preserve-order="true">
 
 
-	<test name="Firefox">
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<class name="testngAnnot.TestNgAnnot" />
-			<class name="testngAnnot.GetUrl" />
-			<class name="testngAnnot.PageTitle" />
-		</classes>
-	</test> <!-- Test -->
-
-	<test name="Chrome">
+	<test name="Chrome Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testngAnnot.TestNgAnnot" />
@@ -20,6 +11,7 @@
 			<class name="testngAnnot.PageTitle" />
 		</classes>
 	</test> <!-- Test -->
+
 
 
 

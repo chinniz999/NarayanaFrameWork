@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 public class TestNgAnnot {
 
 	public static WebDriver driver;
-	public static Logger log=Logger.getLogger(TestNgAnnot.class);
+	public static Logger log=Logger.getLogger("devpinoyLogger");
 
 	@BeforeTest
 	@Parameters("browser")
